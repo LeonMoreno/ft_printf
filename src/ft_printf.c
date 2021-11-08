@@ -8,6 +8,10 @@ void ft_checkarg(char c, va_list argva, int *len)
 		ft_putstr(va_arg(argva, char *), len);
 	if (c == 'i')
 		ft_putnbr(va_arg(argva, int), len);
+	if (c == 'd')
+		ft_putnbr(va_arg(argva, int), len);
+	if (c == 'u')
+		ft_putnbr_u(va_arg(argva, int), len);
 }
 
 int ft_printf(const char *format, ...)
