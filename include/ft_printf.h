@@ -11,7 +11,8 @@ void ft_checkarg(char c, va_list argva, int *len);
 /* F. Utilidades */
 void ft_putchar(char c, int *len);
 void ft_putstr(char *s, int *len);
-void ft_putnbr(int n, int *len);
+void ft_putnbr(int nb, int *len);
 int ft_strlen(char *str);
+void ft_puthexa_mayus(unsigned int nb, int *len);
 
 # endif

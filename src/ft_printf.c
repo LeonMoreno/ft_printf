@@ -10,8 +10,8 @@ void ft_checkarg(char c, va_list argva, int *len)
 		ft_putnbr(va_arg(argva, int), len);
 	if (c == 'd')
 		ft_putnbr(va_arg(argva, int), len);
-	if (c == 'u')
-		ft_putnbr_u(va_arg(argva, int), len);
+	if (c == 'X')
+		ft_puthexa_mayus(va_arg(argva, unsigned int), len);
 }
 
 int ft_printf(const char *format, ...)
