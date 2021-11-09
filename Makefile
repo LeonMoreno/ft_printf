@@ -62,4 +62,3 @@ norm:
 			@norminette $(SRC) $(INCLUDES) | grep -v Norme -B1 || true
 
 .PHONY:		all clean fclean re norm
-

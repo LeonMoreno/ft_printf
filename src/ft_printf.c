@@ -6,7 +6,7 @@
 /*   By: LeoMoreno <lmoreno@student.42quebec.>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 13:44:39 by LeoMoreno         #+#    #+#             */
-/*   Updated: 2021/11/09 14:48:44 by LeoMoreno        ###   ########.fr       */
+/*   Updated: 2021/11/09 16:46:57 by LeoMoreno        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,6 @@ int	ft_printf(const char *format, ...)
 			ft_putchar(*format, &len);
 		format++;
 	}
+	va_end(argva);
 	return (len);
 }
