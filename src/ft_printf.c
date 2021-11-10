@@ -6,7 +6,7 @@
 /*   By: LeoMoreno <lmoreno@student.42quebec.>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 13:44:39 by LeoMoreno         #+#    #+#             */
-/*   Updated: 2021/11/09 16:46:57 by LeoMoreno        ###   ########.fr       */
+/*   Updated: 2021/11/10 12:47:38 by LeoMoreno        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ void	ft_checkarg(char c, va_list argva, int *len)
 		ft_put_ptr(va_arg(argva, unsigned long long), len);
 	if (c == 'u')
 		ft_put_unsigned(va_arg(argva, unsigned int), len);
+	if (c == 'b')
+		ft_printf_bits(va_arg(argva, unsigned int), len);
 }
 
 int	ft_printf(const char *format, ...)

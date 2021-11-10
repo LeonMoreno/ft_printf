@@ -6,7 +6,7 @@
 /*   By: LeoMoreno <lmoreno@student.42quebec.>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 14:48:57 by LeoMoreno         #+#    #+#             */
-/*   Updated: 2021/11/09 14:50:16 by LeoMoreno        ###   ########.fr       */
+/*   Updated: 2021/11/10 12:48:00 by LeoMoreno        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,6 @@ void	ft_puthexa_mayus(unsigned int nb, int *len);
 void	ft_puthexa_minus(unsigned int nb, int *len);
 void	ft_put_ptr(unsigned long long nb, int *len);
 void	ft_put_unsigned(unsigned int nb, int *len);
+void	ft_printf_bits(int nb, int *len);
 
 #endif

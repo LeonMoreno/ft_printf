@@ -23,7 +23,7 @@ WHITE = \033[0;97m
 
 #sources
 
-SRC_FILES	=	ft_printf ft_printf_chars ft_printf_nums ft_printf_hexa
+SRC_FILES	=	ft_printf ft_printf_chars ft_printf_nums ft_printf_hexa ft_printf_bits
 
 SRC 		= 	$(addprefix $(SRC_DIR), $(addsuffix .c, $(SRC_FILES)))
 OBJ 		= 	$(addprefix $(OBJ_DIR), $(addsuffix .o, $(SRC_FILES)))
