@@ -40,14 +40,30 @@ Deep understanding of data types (click full spreadsheet)
 * Write a library that contains ft_printf(), a function that will mimic the original printf()
 * recode printf.
 
+## Implement the following conversions:
 
-
+| conversions | TYPE |
+| ------ | ------ |
+| %c | character |
+| %s | string |
+| %p | void * pointer hex format |
+| %d | decimal (base 10) |
+| %i | integer (base 10) |
+| %u | decimal (base 10) | 
+| %x | hexadecimal (base 16) lowercase format |
+| %X | hexadecimal (base 16) uppercase forma |
+| %b | Print bits |
+| %% | Prints a percent sign |
 
 
 ## 🛠️ Usage
 
-### Requirements
-
-The library is written in C language and needs the **`gcc` compiler** and some standard **C libraries** to run.
-
 ### Instructions
+
+ Commande       	|  Actions 	|
+|----------------	|----------	|
+| `make`      	  | Compile the .c and create libftprintf.a  	|
+| `make clean`    | Delete the .o.  	|
+| `make flcean`  	| Delete the .o and libftprintf.a  	|
+| `make re`     	| Executed fclean and make.  	|
+| `make norm`          | Verification with the norminettes. |
