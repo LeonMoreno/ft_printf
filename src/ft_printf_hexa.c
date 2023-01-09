@@ -67,6 +67,11 @@ void	ft_put_ptr(unsigned long long nb, int *len)
 	unsigned long long	modu;
 
 	modu = 0;
+	if (nb == 0)
+	{
+		*len += write(1, "(nil)", 5);
+		return ;
+	}
 	if (nb < 16)
 		*len += write(1, "0x", 2);
 	if (nb < 10)
