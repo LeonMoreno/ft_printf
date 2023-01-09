@@ -21,13 +21,13 @@
 
 ## Screenshots
 
-Testing the GNL Manual:
+Testing the ft_printf with   paulahemsi / ft_printf
 
-<img src="img/gnl.png" width="800"/>
+<img src="img/test.png" width="800"/>
 
-Testing the GNl with  Tripouille / gnlTester 
+Deep understanding of data types (click full spreadsheet)
 
-<img src="img/gnl_test.png" width="800"/>
+[<img src="img/tipos_datos.jpg" width="800"/>](https://docs.google.com/spreadsheets/d/1tJqVVTYtnHSIUbkGQXTx6xxDX2CSWw9Le4LVMcRpRu8/edit?usp=sharing)
 
 ## Key points:
 * Learn a highly interesting new concept in C programming: variadic functions.
@@ -36,13 +36,12 @@ Testing the GNl with  Tripouille / gnlTester
 * Unix logic.
 * Memory management anomalies in C.
 
-
 ## Objectives:
 * Write a library that contains ft_printf(), a function that will mimic the original printf()
+* recode printf.
 
-## Skills:
-* Unix
-* Rigor
+
+
 
 
 ## 🛠️ Usage
